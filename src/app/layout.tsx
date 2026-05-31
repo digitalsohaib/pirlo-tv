@@ -4,7 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
 import { SiteFooter } from "@/components/layout/SiteFooter";
-import { defaultMetadata } from "@/lib/seo";
+import { defaultMetadata, GOOGLE_SITE_VERIFICATION } from "@/lib/seo";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,6 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={inter.variable} suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content={GOOGLE_SITE_VERIFICATION}
+        />
+      </head>
       <body className={`${inter.className} min-h-screen bg-[#0c0c0c] text-white antialiased`}>
         <style
           dangerouslySetInnerHTML={{

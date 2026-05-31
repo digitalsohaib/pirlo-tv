@@ -4,6 +4,10 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://pirlotvfutbol.com";
 export const SITE_NAME = "Pirlo TV Fútbol";
 
+export const GOOGLE_SITE_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ??
+  "oxlXAY-rm_obu8IAVyI-_3lD-RX78hDnHnpakfyjiZ4";
+
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
@@ -43,7 +47,7 @@ export const defaultMetadata: Metadata = {
     canonical: SITE_URL,
   },
   verification: {
-    google: "oxlXAY-rm_obu8IAVyI-_3lD-RX78hDnHnpakfyjiZ4",
+    google: GOOGLE_SITE_VERIFICATION,
   },
   icons: {
     icon: [
