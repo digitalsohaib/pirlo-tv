@@ -20,7 +20,7 @@ export default async function PartidosHoyPage() {
       <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Partidos hoy" }]} />
       <h1 className="section-title mb-1">Partidos de hoy</h1>
       <p className="section-desc mb-8">Agenda completa · actualización automática</p>
-      <MatchesPanel initialMatches={matches} showBanner />
+      <MatchesPanel initialMatches={matches} />
     </>
   );
 }

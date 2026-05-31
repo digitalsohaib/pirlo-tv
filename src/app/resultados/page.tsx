@@ -20,7 +20,7 @@ export default async function ResultadosPage() {
       <Breadcrumbs items={[{ label: "Inicio", href: "/" }, { label: "Resultados" }]} />
       <h1 className="section-title mb-1">Resultados en vivo</h1>
       <p className="section-desc mb-8">Marcadores actualizados automáticamente</p>
-      <MatchesPanel initialMatches={matches} title="Todos los partidos" showBanner />
+      <MatchesPanel initialMatches={matches} title="Todos los partidos" />
     </>
   );
 }

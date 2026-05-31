@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { getDataSourceMode } from "@/lib/data/source";
 
 export function SiteFooter() {
+  const isLiveApi = getDataSourceMode() === "api";
+
   return (
     <footer className="mt-auto border-t border-white/[0.06] bg-surface-raised py-10">
       <div className="container-app text-center">
@@ -19,7 +22,12 @@ export function SiteFooter() {
             Mundial 2026
           </Link>
         </div>
-        <p className="mt-6 text-2xs text-white/25">
+        {isLiveApi && (
+          <p className="mx-auto mt-6 max-w-md text-2xs leading-relaxed text-white/30">
+            Marcadores en tiempo real vía API-Football (plan gratuito). Actualización aproximada cada 2 minutos.
+          </p>
+        )}
+        <p className="mt-4 text-2xs text-white/25">
           © {new Date().getFullYear()} pirlotvfutbol.com
         </p>
       </div>

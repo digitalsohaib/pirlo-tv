@@ -23,7 +23,7 @@ export function SiteHeader() {
       <div className="container-app">
         <div className="flex h-14 items-center gap-4 md:h-16">
           <Link href="/" className="flex items-center gap-2.5">
-            <SiteLogo size={36} showLabel className="[&_span]:hidden [&_span]:sm:flex" />
+            <SiteLogo size={44} showLabel className="[&_span]:hidden [&_span]:sm:flex" />
           </Link>
 
           <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Principal">

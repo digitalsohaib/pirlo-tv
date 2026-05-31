@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
-  <circle cx="90" cy="90" r="84" fill="#fff" stroke="#E10600" stroke-width="6"/>
-  <path fill="#E10600" d="M90 24l20 12v22L90 70 70 58V36L90 24zm-36 18l20 12v22l-20 12-17-20v-22l17-20zm72 0l17 20v22l-17 20-20-12V54l20-12zM90 110l20 12v22L90 156l-20-12v-22l20-12zm-36-9l17 20v22l-17 20-20-12v-22l20-12zm72 0l20 12v22l-20 12-17-20v-22l17-20z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
+  <rect width="192" height="192" rx="40" fill="#E10600"/>
+  <circle cx="96" cy="96" r="72" fill="#FFFFFF"/>
+  <circle cx="96" cy="96" r="72" stroke="#C00500" stroke-width="4"/>
+  <path fill="#E10600" d="M96 38 118 52v28L96 94 74 80V52L96 38z"/>
+  <path fill="#E10600" d="M52 62 72 74v26l-14 12-16-18V76l12-14z"/>
+  <path fill="#E10600" d="M140 62 152 76v18l-16 18-14-12V74L140 62z"/>
+  <path fill="#E10600" d="M62 128 80 120v22l-12 16-18-10V122l12 6z"/>
+  <path fill="#E10600" d="M130 128 148 122v16l-18 10-12-16v-22l12 8z"/>
+  <path fill="#E10600" d="M96 104 118 118v24L96 152 74 142v-24l22-14z"/>
 </svg>

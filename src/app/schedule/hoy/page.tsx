@@ -25,7 +25,7 @@ export default async function ScheduleHoyPage() {
       />
       <h1 className="section-title mb-1">Calendario de hoy</h1>
       <p className="section-desc mb-8">Horarios y partidos del día</p>
-      <MatchesPanel initialMatches={matches} showBanner />
+      <MatchesPanel initialMatches={matches} />
     </>
   );
 }

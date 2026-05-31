@@ -4,7 +4,6 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { RefreshCw } from "lucide-react";
 import type { Match, MatchStatus } from "@/types/sports";
 import { MatchRow } from "./MatchRow";
-import { DataSourceBanner } from "./DataSourceBanner";
 import { cn } from "@/lib/utils";
 import { leagues } from "@/lib/data/leagues";
 
@@ -20,11 +19,9 @@ const filters: { id: Filter; label: string }[] = [
 export function MatchesPanel({
   initialMatches,
   title = "Partidos",
-  showBanner = false,
 }: {
   initialMatches: Match[];
   title?: string;
-  showBanner?: boolean;
 }) {
   const [matches, setMatches] = useState(initialMatches);
   const [filter, setFilter] = useState<Filter>("all");
@@ -60,12 +57,6 @@ export function MatchesPanel({
 
   return (
     <section>
-      {showBanner && (
-        <div className="mb-4">
-          <DataSourceBanner />
-        </div>
-      )}
-
       <div className="section-head">
         <div>
           <h2 className="section-title flex items-center gap-2">

@@ -41,7 +41,7 @@ export default async function HomePage() {
       <LiveTicker initial={ticker} />
 
       <div className="grid gap-8 lg:grid-cols-[1fr_280px] xl:grid-cols-[1fr_300px]">
-        <MatchesPanel initialMatches={matches} title="Partidos de hoy" showBanner />
+        <MatchesPanel initialMatches={matches} title="Partidos de hoy" />
         <HomeSidebar liveCount={live.length} />
       </div>
 
