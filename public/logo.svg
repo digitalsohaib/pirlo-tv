@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <circle cx="90" cy="90" r="84" fill="#fff" stroke="#E10600" stroke-width="6"/>
+  <path fill="#E10600" d="M90 24l20 12v22L90 70 70 58V36L90 24zm-36 18l20 12v22l-20 12-17-20v-22l17-20zm72 0l17 20v22l-17 20-20-12V54l20-12zM90 110l20 12v22L90 156l-20-12v-22l20-12zm-36-9l17 20v22l-17 20-20-12v-22l20-12zm72 0l20 12v22l-20 12-17-20v-22l17-20z"/>
+</svg>
